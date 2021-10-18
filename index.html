@@ -14,12 +14,12 @@
             <h1>Dojonary</h1>
             <div>
                 <input type="text" name="name" 
-                placeholder="Seach" >
+                placeholder="Search" >
             </div>
             
         </div>
         <div class = "navRight container align-center justify-right">
-            <button class = "login">Login</button>
+            <button class = "login" onclick="turnOff(this)">Login</button>
         </div>
     </div>
     <div class= "main container justify-center">
@@ -31,7 +31,7 @@
                             <h1>ninja</h1>
                             <h3>noun</h3>
                             <h3>Plural: ninjas</h3>
-                            <button class = "like1">13 likes</button>
+                            <button class = "like1" onclick="alert('Ninja was liked')">13 likes</button>
                         </div>
                     </div> 
                     <div class = "def1-right container align-center">
@@ -47,22 +47,22 @@
                             <h1>ninja</h1>
                             <h3>noun</h3>
                             <h3>Plural: ninjas</h3>
-                            <button class = "like1">37 likes</button>
+                            <button class = "like1" onclick="alert('Ninja was liked')">37 likes</button>
                         </div>
                     </div>
                     <div class = "def2-right container align-center">
-                        <h6>A</h6>
+                        <h5>A</h5>
                         <a href="">programmer</a>
-                        <h6>who breaks down problems with</h6>
+                        <h5>who breaks down problems with</h5>
                         <a href="">zen</a>
-                        <h6>-like focus</h6>
+                        <h5>-like focus</h5>
                     </div>
                 </div>
             </div>
             <div class = "right-col container">
                 <div class = "add-def">
                     <h2>Dojonary is defned by YOU</h2>
-                    <button class = "user-add">Add Definition</button>
+                    <button class = "user-add" onclick="delThis(this)">Add Definition</button>
                 </div>
             </div>
         </div>

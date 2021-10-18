@@ -40,14 +40,12 @@
 
 .left-col{
     flex: 3;
-    height: 100%;
-    background-color: aqua;
+    height: 100%; 
 }
 
 .right-col{
     flex: 2;
-    height:100%;
-    background-color: cornflowerblue;
+    height:100%;  
 }
 
 .nav{
@@ -65,26 +63,26 @@
 .login {
     border: 0px;
     color: white;
-    background-color:rgb(67, 76, 202);
     padding: 10px 20px 10px 20px;
+    background-color: cornflowerblue;
 }
 
 .def1{
-    background-color: rgb(42, 165, 83);
     height: 25%;
     width: 25%;
-    margin-bottom: 10%;  
+    margin-bottom: 10%; 
+    border: 4px solid rgb(0, 0, 0); 
 }
 
-.def2{
-    background-color: rgb(42, 165, 83);
-    height: 25%;
+.def2{  
+    height: 203px;
     width: 25%;
+    border: 4px solid rgb(0, 0, 0);
 }
-.add-def{
-    background-color: rgb(42, 165, 83);
+.add-def{    
     height: 200px;
     width: 300px;
+    border: 4px solid rgb(0, 0, 0);
 }
 
 .like1{
@@ -98,11 +96,11 @@
     padding:2%;
 }
 
-.def1-right{
-    background-color: rgb(42, 136, 165);
+.def1-right{    
     height: 203px;
     width: 60%;
     padding-left: 2%;
+    border: 4px solid rgb(0, 0, 0);
 }
 
 .def1-right a{
@@ -110,11 +108,11 @@
 }
 
 .def2-right{
-    background-color: rgb(42, 136, 165);
     height: 203px;
     width: 60%;
     padding-left: 2%;
     text-align:justify;
+    border: 4px solid rgb(0, 0, 0);
 }
 
 .def2-right a{
